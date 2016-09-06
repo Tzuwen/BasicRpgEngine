@@ -23,6 +23,7 @@
     </sprites>
     <sprite>sprites\spr_damage</sprite>
     <sprite>sprites\spr_expr</sprite>
+    <sprite>sprites\spr_door</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -67,9 +68,11 @@
     </objects>
     <object>objects\obj_damage</object>
     <object>objects\obj_expr</object>
+    <object>objects\obj_door</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_one</room>
+    <room>rooms\rm_two</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
