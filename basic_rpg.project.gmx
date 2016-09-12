@@ -6,7 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_wall</sprite>
     <sprites name="Player">
       <sprite>sprites\spr_player_up</sprite>
       <sprite>sprites\spr_player_down</sprite>
@@ -22,8 +21,16 @@
       <sprite>sprites\spr_enemy_slime</sprite>
     </sprites>
     <sprite>sprites\spr_damage</sprite>
-    <sprite>sprites\spr_expr</sprite>
-    <sprite>sprites\spr_door</sprite>
+    <sprites name="Loot">
+      <sprite>sprites\spr_expr</sprite>
+      <sprite>sprites\spr_health</sprite>
+    </sprites>
+    <sprites name="Environment">
+      <sprite>sprites\spr_door</sprite>
+      <sprite>sprites\spr_wall</sprite>
+      <sprite>sprites\spr_sign</sprite>
+    </sprites>
+    <sprite>sprites\spr_dialogox</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -52,10 +59,11 @@
     <scripts name="Healper Scripts">
       <script>scripts\scr_get_face.gml</script>
       <script>scripts\scr_get_input.gml</script>
+      <script>scripts\scr_chance.gml</script>
+      <script>scripts\scr_string_copy_words.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_wall</object>
     <object>objects\obj_lifeform_parent</object>
     <objects name="Player">
       <object>objects\obj_player</object>
@@ -67,8 +75,17 @@
       <object>objects\obj_enemy_slime</object>
     </objects>
     <object>objects\obj_damage</object>
-    <object>objects\obj_expr</object>
-    <object>objects\obj_door</object>
+    <objects name="Loot">
+      <object>objects\obj_health</object>
+      <object>objects\obj_expr</object>
+    </objects>
+    <object>objects\obj_speaker</object>
+    <object>objects\obj_dialog</object>
+    <objects name="Environment">
+      <object>objects\obj_wall</object>
+      <object>objects\obj_door</object>
+      <object>objects\obj_sign</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_one</room>
