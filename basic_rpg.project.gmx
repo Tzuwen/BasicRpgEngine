@@ -70,26 +70,29 @@
       <object>objects\obj_dash_effect</object>
       <object>objects\obj_view</object>
       <object>objects\obj_player_stats</object>
+      <object>objects\obj_input</object>
+      <object>objects\obj_damage</object>
     </objects>
     <objects name="Enemy">
       <object>objects\obj_enemy_slime</object>
     </objects>
-    <object>objects\obj_damage</object>
     <objects name="Loot">
       <object>objects\obj_health</object>
       <object>objects\obj_expr</object>
     </objects>
-    <object>objects\obj_speaker</object>
-    <object>objects\obj_dialog</object>
     <objects name="Environment">
       <object>objects\obj_wall</object>
       <object>objects\obj_door</object>
       <object>objects\obj_sign</object>
+      <object>objects\obj_speaker</object>
+      <object>objects\obj_dialog</object>
     </objects>
+    <object>objects\obj_pause_menu</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_one</room>
     <room>rooms\rm_two</room>
+    <room>rooms\rm_pause</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -38,7 +38,6 @@ dir = RIGHT;
 attacked = false;
 face = 0;
 image_speed = 0;
-scr_get_input();
 state = scr_move_state;
 </string>
           </argument>
